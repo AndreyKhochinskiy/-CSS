@@ -1,0 +1,21 @@
+@keyframes move {
+	from {
+		width: 100px;
+	}
+	to {
+		width: 1000px;
+	}
+}
+
+#elem {
+	animation-duration: 2s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: paused;
+	border: 1px solid red;
+	height: 50px;
+}
+#elem:hover {
+	animation-play-state: running;
+}

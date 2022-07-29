@@ -1,0 +1,25 @@
+@keyframes move {
+	from {
+		width: 0px;
+	}
+	to {
+		width: 500px;
+	}
+}
+#wrapper{
+	margin-left: 100px;
+	width: 500px;
+	height: 30px;
+	border: 1px solid red;
+}
+
+#elem {
+	animation-duration: 20s;
+	animation-name: move;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	background-color: red;
+	border: 1px solid red;
+	width: 0px;
+	height: 30px;
+}
